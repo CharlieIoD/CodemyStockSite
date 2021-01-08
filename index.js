@@ -35,7 +35,7 @@ app.get('/', function (req, res) {
         res.render('home', {
         stock: doneAPI 
         });
-    });   
+    }, 'fb');   
 });
 
 // Set Handlebar Index POST Route
