@@ -11,7 +11,6 @@ const PORT = process.env.PORT || 5000;
 app.use(bodyParser.urlencoded({extended: false}));
 
 
-
 // API Key: pk_5582c7f15d9443259f477f5a01241670
 // Create call_api function
 function call_api(finishedAPI, ticker) {
