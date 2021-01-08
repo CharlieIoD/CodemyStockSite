@@ -20,9 +20,9 @@ if (err) {return console.log(err);}
     if (res.statusCode === 200) {
         // console.log(body);
         finishedAPI(body);
-    };
-});
-}
+        };
+    });
+};
 
 // Set Handlebars Middleware
 app.engine('handlebars', exphbs());
